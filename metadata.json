@@ -1,0 +1,6 @@
+{
+  "name": "Barter Up! — Peer-to-Peer Learning & Networking Community",
+  "description": "Cross-industry learning and expertise exchange community for Indonesian professionals, founders, and creators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
