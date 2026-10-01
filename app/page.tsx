@@ -410,7 +410,7 @@ export default function Home() {
                     <span className="text-xs uppercase text-[#6695fc] tracking-widest font-black">Pillar 01</span>
                     <h3 className="text-lg font-bold text-[#0c48a4]">Curated Monthly Topic</h3>
                     <p className="text-sm text-[#0c48a4]/75 leading-relaxed">
-                      Setiap bulan membedah tema krusial: Performance Marketing, B2B Sales Funnel, TikTok Live Ops, hingga Legalitas UMKM.
+                      Setiap bulan membedah tema penting: dari Performance Marketing, personal branding, TikTok Livestream, sampai fundraising untuk new business.
                     </p>
                   </div>
                   <div className="mt-6 pt-4 flex items-center gap-1.5 text-[#6695fc] font-bold text-xs border-t border-[#6695fc]/15">
@@ -426,9 +426,9 @@ export default function Home() {
                       <Mic className="w-6 h-6 text-[#0c48a4]" />
                     </div>
                     <span className="text-xs uppercase text-[#f9fe8f] tracking-widest font-black">Pillar 02</span>
-                    <h3 className="text-lg font-bold text-white">Practitioner Mentorship</h3>
+                    <h3 className="text-lg font-bold text-white">Expert Speaker</h3>
                     <p className="text-sm text-white/80 leading-relaxed">
-                      Bukan sekadar pembicara motivasi, tapi Head of Growth dan founder UMKM berpengalaman 7-10+ tahun yang buka-bukaan playbook asli.
+                      Bukan sekadar pembicara motivasi, tapi dari specialist sampai C-level berpengalaman 7-10+ tahun yang buka-bukaan real case studies.
                     </p>
                   </div>
                   <div className="mt-6 pt-4 flex items-center gap-1.5 text-[#b4e26d] font-bold text-xs border-t border-white/20">
@@ -444,9 +444,9 @@ export default function Home() {
                       <ArrowLeftRight className="w-6 h-6 text-[#0c48a4]" />
                     </div>
                     <span className="text-xs uppercase text-[#0c48a4] tracking-widest font-black">Pillar 03</span>
-                    <h3 className="text-lg font-bold text-[#0c48a4]">Structured Skill Barter</h3>
+                    <h3 className="text-lg font-bold text-[#0c48a4]">Barter Your Skill</h3>
                     <p className="text-sm text-[#0c48a4]/75 leading-relaxed">
-                      Punya skill copywriting tapi butuh arahan Google Ads? Matchmaking terstruktur mempertemukan kebutuhan spesifik kamu dalam satu meja.
+                      Everyone who comes here come to learn AND teach. Pada sesi networking, setiap peserta dipersilahkan saling belajar dan saling mengajar satu sama lain.
                     </p>
                   </div>
                   <div className="mt-6 pt-4 flex items-center gap-1.5 text-[#0c48a4] font-bold text-xs border-t border-[#6695fc]/15">
@@ -464,7 +464,7 @@ export default function Home() {
                     <span className="text-xs uppercase text-[#ff25af] tracking-widest font-black">Pillar 04</span>
                     <h3 className="text-lg font-bold text-[#0c48a4]">Zero-Ego Atmosphere</h3>
                     <p className="text-sm text-[#0c48a4]/75 leading-relaxed">
-                      Suasana hangat di cafe atau co-working space estetik. Bebas basa-basi formalitas, semua hadir untuk saling bantu dan berkolaborasi.
+                      Networking santai di coffee shop sekitar Jakarta sambil mingle dengan like-minded peers. No rigid formality, just warm conversation with one another, forming new network and potential collaboration.
                     </p>
                   </div>
                   <div className="mt-6 pt-4 flex items-center gap-1.5 text-[#ff25af] font-bold text-xs border-t border-[#6695fc]/15">
