@@ -1,6 +1,6 @@
 'use client';
 
-import {X, Clock, User, Share2, Bookmark, CheckCircle} from 'lucide-react';
+import {X, Clock, User, Share2, Bookmark, CheckCircle, Users} from 'lucide-react';
 import {useState} from 'react';
 
 export interface ArticleItem {
@@ -98,19 +98,26 @@ export default function ArticleReaderModal({article, onClose}: ArticleReaderModa
             ))}
           </div>
 
-          {/* Community Callout */}
-          <div className="mt-8 p-5 bg-blue-50/70 rounded-2xl border border-blue-100 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div>
-              <h5 className="font-bold text-sm text-blue-900">Ingin mendiskusikan topik ini lebih dalam?</h5>
-              <p className="text-xs text-blue-700">Ikut meja barter di meetup bulanan Barter Up! Jabodetabek.</p>
+          {/* Insights & Learning CTA */}
+          <a
+            href="https://chat.whatsapp.com/EM2ZlOjwUwgKBnaeOXPBo1?s=cl&p=i&mlu=4&ilr=4"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 p-5 bg-violet-50/80 hover:bg-violet-100/80 rounded-2xl border border-violet-100 flex flex-col md:flex-row items-center justify-between gap-4 transition-colors group"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-violet-100 text-violet-700 flex items-center justify-center shrink-0">
+                <Users className="w-5 h-5" />
+              </div>
+              <div>
+                <h5 className="font-bold text-sm text-violet-900">Mau belajar lebih banyak lagi?</h5>
+                <p className="text-xs text-violet-700">Join group Insights & Learning Barter Up!</p>
+              </div>
             </div>
-            <button
-              onClick={onClose}
-              className="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-xs font-bold whitespace-nowrap shadow-sm transition-colors"
-            >
-              Cari Partner Diskusi
-            </button>
-          </div>
+            <span className="px-5 py-2 bg-violet-600 group-hover:bg-violet-700 text-white rounded-full text-xs font-bold whitespace-nowrap shadow-sm transition-colors">
+              Join WhatsApp Group
+            </span>
+          </a>
         </div>
       </div>
     </div>
