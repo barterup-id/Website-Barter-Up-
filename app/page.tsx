@@ -153,7 +153,7 @@ export default function Home() {
 
             <div className="flex items-center gap-3">
               <a
-                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#6695fc] text-white font-bold text-sm shadow-lg shadow-[#6695fc]/30 hover:bg-[#0c48a4] hover:-translate-y-0.5 active:translate-y-0 transition-all border border-[#6695fc]"
+                className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-[#6695fc] text-white font-bold text-xs sm:px-4 sm:py-2.5 sm:text-sm lg:gap-2 lg:px-5 lg:py-2.5 shadow-lg shadow-[#6695fc]/30 hover:bg-[#0c48a4] hover:-translate-y-0.5 active:translate-y-0 transition-all border border-[#6695fc]"
                 href="https://wa.link/5ta2ei"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -246,9 +246,10 @@ export default function Home() {
                   <span>est. 2024 • 500+ MEMBERS from diverse sectors</span>
                 </div>
 
-                <h1 className="text-4xl md:text-5xl lg:text-[54px] font-black text-[#0c48a4] tracking-tight leading-[1.15]">
-                  Cross-Industry Learning. Expand Network.<br />
-                  <span className="relative inline-block text-[#6695fc] mt-1">
+                <h1 className="text-[30px] sm:text-4xl md:text-5xl lg:text-[54px] font-black text-[#0c48a4] tracking-tight leading-[1.15]">
+                  <span className="block whitespace-nowrap">Cross-Industry Learning.</span>
+                  <span className="block whitespace-nowrap">Expand Network.</span>
+                  <span className="relative inline-block whitespace-nowrap text-[#6695fc] mt-1">
                     Find Your People.
                     <svg
                       className="absolute -bottom-2 left-0 w-full text-[#ff25af]"
@@ -275,9 +276,9 @@ export default function Home() {
                 </div>
 
                 {/* CTAs */}
-                <div className="flex flex-wrap items-center gap-4 pt-1">
+                <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:items-center sm:gap-4 pt-1 w-full sm:w-auto">
                   <a
-                    className="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-[#6695fc] text-white font-bold text-sm tracking-wide shadow-xl shadow-[#6695fc]/35 hover:bg-[#0c48a4] hover:-translate-y-0.5 active:translate-y-0 transition-all border border-[#6695fc]"
+                    className="inline-flex min-h-[92px] items-center justify-center gap-2 px-3 py-3 rounded-2xl bg-[#6695fc] text-white font-bold text-xs text-center leading-tight tracking-wide shadow-xl shadow-[#6695fc]/35 hover:bg-[#0c48a4] hover:-translate-y-0.5 active:translate-y-0 transition-all border border-[#6695fc] sm:min-h-0 sm:gap-3 sm:px-7 sm:py-4 sm:text-sm sm:text-left"
                     href="https://chat.whatsapp.com/LxzJMUjgtnx8BFfTpCHvDm"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -287,7 +288,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl bg-[#f9fe8f] text-[#0c48a4] font-bold text-sm hover:bg-[#eff476] transition-all shadow-md border border-[#0c48a4]/20 hover:-translate-y-0.5"
+                    className="inline-flex min-h-[92px] items-center justify-center gap-2 px-3 py-3 rounded-2xl bg-[#f9fe8f] text-[#0c48a4] font-bold text-xs text-center leading-tight hover:bg-[#eff476] transition-all shadow-md border border-[#0c48a4]/20 hover:-translate-y-0.5 sm:min-h-0 sm:px-6 sm:py-4 sm:text-sm sm:text-left"
                     href="https://wa.link/yfqox4"
                     target="_blank"
                     rel="noopener noreferrer"
