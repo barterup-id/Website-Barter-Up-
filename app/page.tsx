@@ -35,27 +35,37 @@ export default function Home() {
   const [selectedArticle, setSelectedArticle] = useState<ArticleItem | null>(null);
   const [articleFilter, setArticleFilter] = useState('Semua Topik');
 
-  const articlesData: (ArticleItem & {filterCategory: string})[] = [
+  const articlesData: (ArticleItem & {filterCategory: string; thumbnail: string; keywords: string[]})[] = [
     {
       id: 'demanding-workplace',
       filterCategory: 'Growth & Barter',
       category: 'Career & Self Development',
       categoryTheme: 'bg-[#b4e26d] text-[#0c48a4] border border-[#0c48a4]/15',
-      readTime: '5 min read',
+      readTime: '7 min read',
       title: 'The Art of Surviving a Demanding Workplace',
-      summary: 'Kerja demanding belum tentu toxic. Kenali healthy challenge vs unhealthy pressure, cara set boundaries, menjaga mental wellbeing, dan menyiapkan exit strategy tanpa keputusan impulsif.',
+      summary: 'Pekerjaan yang demanding bisa bikin kita berkembang, tapi juga bisa menguras mental kalau tidak dikelola. Kenali healthy challenge vs toxic pressure, set boundaries, dan bangun career growth yang sustainable.',
       author: 'Tim Barter Up!',
+      thumbnail: '/images/article-demanding-workplace.svg',
+      keywords: [
+        'workplace mental health',
+        'career development',
+        'setting boundaries',
+        'komunitas',
+        'Jakarta',
+      ],
       keyTakeaways: [
-        'Demanding workplace masih bisa sehat kalau ada respect, support, dan psychological safety.',
-        'Professional boundaries adalah energy management, prioritization, communication clarity, dan sustainability.',
-        'Kalau pressure sudah menggerus kesehatan dan growth, siapkan exit strategy secara strategis, bukan impulsif.',
+        'Demanding workplace masih bisa sehat kalau ada respect, support, psychological safety, dan ruang untuk belajar.',
+        'Setting boundaries bukan berarti malas; ini soal energy management, prioritas, komunikasi, dan sustainability.',
+        'Kalau pressure terus menggerus kesehatan dan growth, siapkan exit strategy secara strategis, bukan impulsif.',
       ],
       content: [
-        'Hustle culture sering bikin kita salah kaprah: sibuk dianggap achievement, fast response jadi ekspektasi, dan burnout malah dinormalisasi. Padahal productivity bukan self-worth. Jadi sebelum buru-buru resign, pertanyaan pertamanya bukan “kerjaan gue berat nggak?”, tapi “environment ini masih sehat nggak?”',
-        'Healthy workplace tetap bisa punya high standard. Bedanya, feedback membantu growth, mistakes jadi bahan belajar, komunikasi jelas, workload dikelola, dan pressure datang bersama support. Red flag mulai kelihatan ketika feedback berubah jadi humiliation, kamu takut speak up, workload terus overload, blaming culture jadi normal, atau badan tetap exhausted bahkan setelah istirahat.',
-        'Survival skill berikutnya adalah boundaries. Boundaries bukan berarti lazy atau difficult; ini soal energy management dan prioritization. Daripada bilang “I can’t”, coba: “I can help, but I need to adjust my priorities first.” Kalau semua dianggap urgent, tanyakan mana yang harus jadi priority. Protect peak-energy hours, stop glorifying multitasking, dan sisipkan recovery moments.',
-        'Bikin juga mental survival kit: detach dari office drama, punya support system di luar kerja, dan jaga identitas supaya hidupmu nggak cuma soal pekerjaan. Small rituals seperti jalan, olahraga, journaling, musik, meditasi, atau digital detox bisa membantu recovery. Kamu tetap bisa perform professionally tanpa mengorbankan emotional wellbeing.',
-        'Kalau anxiety sudah konstan, kesehatan terus menurun, growth mandek, values nggak lagi aligned, atau toxicity sudah dianggap normal, mulai siapkan next chapter. Bangun emergency savings, update CV dan LinkedIn, riset job market, upgrade skill, networking, dan rapikan portfolio. The best resignation is prepared, not impulsive.',
+        'Hustle culture sering bikin kita salah kaprah: kalender penuh dianggap achievement, fast response jadi standar profesionalisme, dan burnout malah dipakai sebagai bukti bahwa kita bekerja keras. Padahal workplace mental health jauh lebih penting daripada sekadar terlihat sibuk. Pekerjaan yang demanding tidak otomatis berarti toxic; challenge justru bisa membantu kita belajar lebih cepat, membangun resilience, dan memperluas kapasitas. Pertanyaan yang lebih berguna adalah: apakah pressure yang kita rasakan masih mendorong growth, atau sudah mulai menggerus kesehatan, relasi, dan kualitas hidup?',
+        'Healthy workplace tetap bisa punya high standard dan target agresif. Bedanya, ada respect, support, komunikasi yang jelas, serta psychological safety untuk bertanya atau mengakui kesalahan. Feedback diarahkan ke pekerjaan, bukan menyerang personal. Mistakes dipakai sebagai bahan belajar, bukan alasan mempermalukan orang. Red flag mulai muncul ketika humiliation dianggap normal, kamu takut speak up, workload selalu overload tanpa prioritas yang masuk akal, atau blaming culture lebih kuat daripada problem solving. Kalau badan tetap exhausted bahkan setelah istirahat, jangan langsung menganggap itu sekadar kurang kuat.',
+        'Skill penting berikutnya adalah setting boundaries. Boundaries bukan tembok untuk menolak semua pekerjaan, melainkan cara menjaga energi supaya performa tetap sustainable. Daripada otomatis bilang yes ke setiap request, coba komunikasikan trade-off: “I can help, but I need to adjust my priorities first.” Kalau lima hal disebut urgent, tanyakan mana yang benar-benar harus selesai lebih dulu. Protect peak-energy hours untuk deep work, kurangi context switching, dan stop glorifying multitasking. Career development yang sehat membutuhkan kemampuan memilih fokus, bukan hanya kemampuan menerima lebih banyak tugas.',
+        'Selain boundaries, kamu juga butuh mental survival kit. Pisahkan identitas diri dari job title dan jangan biarkan office drama mengambil seluruh ruang mental setelah jam kerja. Punya support system di luar kantor, olahraga, jalan kaki, journaling, musik, meditasi, atau digital detox bisa menjadi recovery ritual sederhana. Tujuannya bukan membuat masalah kantor magically disappear, tetapi memberi otak kesempatan untuk reset. Dalam komunitas profesional, termasuk komunitas Jakarta seperti Barter Up!, ngobrol dengan orang dari industri lain juga bisa memberi perspektif bahwa pengalaman kerja kita bukan satu-satunya benchmark.',
+        'Jangan lupa mengecek apakah kamu masih bertumbuh. Career growth bukan cuma promotion atau salary increase; bisa juga berupa skill baru, exposure ke problem yang lebih kompleks, mentorship, dan kesempatan mengambil ownership. Kalau tuntutan tinggi datang bersama learning yang nyata, mungkin situasinya masih worth navigating. Tetapi kalau berbulan-bulan kamu hanya firefighting, tidak mendapat feedback yang membantu, dan tidak punya ruang berkembang, itu sinyal untuk mengevaluasi ulang. Coba dokumentasikan achievement, skill yang sudah dikuasai, dan area yang ingin kamu bangun berikutnya.',
+        'Ada titik ketika bertahan bukan lagi bentuk resilience. Kalau anxiety terasa konstan, kesehatan terus menurun, values tidak lagi aligned, atau toxicity sudah dianggap normal, mulai siapkan next chapter dengan tenang. Bangun emergency savings, update CV dan LinkedIn, rapikan portfolio, riset job market, upgrade skill, dan mulai networking sebelum benar-benar membutuhkan pekerjaan baru. Di Jakarta, kesempatan sering datang dari conversation dan referral, jadi membangun network secara genuine bisa sama pentingnya dengan mengirim application. The best resignation is prepared, not impulsive.',
+        'Pada akhirnya, surviving a demanding workplace bukan tentang menjadi kebal terhadap pressure. Ini tentang mengenali lingkungan, mengelola energi, berkomunikasi dengan jelas, dan tahu kapan harus stay atau move on. Kamu boleh ambitious tanpa menjadikan burnout sebagai personality. Kamu juga boleh mengejar career development sambil tetap menjaga workplace mental health. Kalau sekarang kamu sedang berada di fase yang berat, mulai dari satu langkah kecil: tentukan satu boundary yang perlu diperjelas minggu ini, satu recovery habit yang mau dijaga, dan satu orang yang bisa diajak ngobrol secara jujur.',
       ],
     },
     {
@@ -63,21 +73,31 @@ export default function Home() {
       filterCategory: 'Growth & Barter',
       category: 'Business & Funding',
       categoryTheme: 'bg-[#f9fe8f] text-[#0c48a4] border border-[#0c48a4]/20',
-      readTime: '5 min read',
+      readTime: '8 min read',
       title: 'Do You Really Need Venture Capital for Funding?',
-      summary: 'VC bukan satu-satunya jalan untuk scale. Sebelum fundraising, pahami kenapa kamu butuh modal dan pilih sumber funding yang paling cocok dengan stage, risk, dan control bisnis.',
+      summary: 'VC bukan satu-satunya jalan untuk scale. Kenali venture capital, startup funding, bootstrapping, debt, grants, dan opsi lain sebelum menentukan sumber modal yang paling fit untuk bisnis.',
       author: 'Tim Barter Up!',
+      thumbnail: '/images/article-venture-capital.svg',
+      keywords: [
+        'venture capital',
+        'startup funding',
+        'bootstrapping',
+        'komunitas',
+        'Jakarta',
+      ],
       keyTakeaways: [
-        'Mulai dari “why”: jangan fundraising hanya karena butuh more money atau karena funding terlihat keren.',
-        'Alternatif startup funding mencakup bootstrapping, 3F, angel investor, grants, bank, P2P lending, sampai institutional investor.',
-        'Venture capital cocok untuk profil bisnis tertentu dan datang dengan trade-off, termasuk ownership/control dan ekspektasi growth.',
+        'Mulai dari “why”: fundraising harus punya use case, milestone, dan kebutuhan modal yang jelas.',
+        'Startup funding punya banyak bentuk: bootstrapping, 3F, angel investor, grants, bank, P2P lending, hingga institutional investor.',
+        'Venture capital membawa capital dan network, tetapi juga datang dengan dilution, governance, dan ekspektasi growth.',
       ],
       content: [
-        'Banyak founder menganggap startup funding sama dengan venture capital. Padahal sebelum bikin pitch deck, jawab dulu satu pertanyaan simpel: why do you need funding? “I just need more money” tanpa use case yang jelas bukan strategy. Raising money just because it’s cool juga bisa punya konsekuensi: external funding dapat berarti sebagian control bisnis ikut berpindah.',
-        'Kalau bisnis masih bisa tumbuh dari cash flow sendiri, bootstrapping alias pakai modal sendiri bisa menjaga ownership dan fleksibilitas. Ada juga 3F—family, friends and fools—serta angel investor seperti wealthy individuals atau family office. Untuk bisnis tertentu, grants, incubator, accelerator, dan government incentives juga bisa jadi opsi non-VC.',
-        'Butuh debt financing? Bank bisa relevan untuk SME, terutama ketika bisnis punya credit profile dan kemampuan repayment yang jelas; collateral bisa menjadi pertimbangan. P2P lending menawarkan proses yang lebih quick dan flexible serta collateral yang bisa optional, tetapi cost of capital perlu dihitung hati-hati. Intinya: “cepat cair” belum tentu “paling sehat buat bisnis.”',
-        'Venture capital lebih identik dengan early-stage startup, khususnya tech company dengan potensi high growth dan high return. VC membawa capital dan bisa membuka network, tetapi founder perlu siap dengan dilution, governance, dan growth expectations. Di tahap lebih mature ada corporate VC, growth VC, sovereign wealth fund, private equity, hingga akhirnya public market atau IPO.',
-        'Jadi, do you really need VC? Jangan mulai dari nama investornya—mulai dari kebutuhan bisnis. Tentukan berapa modal yang dibutuhkan, untuk apa, kapan harus menghasilkan return, dan seberapa besar ownership/control yang rela kamu tukar. Funding terbaik bukan yang paling prestigious, tapi yang paling fit dengan business model dan stage kamu.',
+        'Banyak founder menganggap startup funding identik dengan venture capital. Begitu bisnis ingin scale, refleksnya adalah bikin pitch deck, cari introduction ke investor, lalu mengejar fundraising round. Padahal pertanyaan pertama seharusnya jauh lebih sederhana: why do you need funding? “Butuh more money” belum cukup menjadi strategy. Founder perlu tahu modal itu akan dipakai untuk apa, milestone apa yang ingin dicapai, berapa lama runway yang dibutuhkan, dan apakah tambahan capital benar-benar akan mempercepat growth yang sudah terbukti atau justru menutup problem yang belum selesai.',
+        'Kalau bisnis masih bisa tumbuh dari revenue dan cash flow sendiri, bootstrapping bisa menjadi pilihan yang sangat valid. Keuntungannya jelas: ownership lebih terjaga, decision making lebih fleksibel, dan founder dipaksa disiplin memahami unit economics sejak awal. Trade-off-nya, growth mungkin lebih gradual dan ruang eksperimen bisa lebih terbatas. Ada juga 3F—family, friends and fools—yang sering muncul di tahap awal, serta angel investor atau family office yang dapat memberi capital sekaligus akses ke pengalaman dan network tertentu.',
+        'Pilihan startup funding tidak berhenti di equity. Untuk bisnis tertentu ada grants, incubator, accelerator, atau government incentives yang dapat membantu tanpa struktur investasi yang sama dengan venture capital. Debt financing juga punya tempatnya. Bank biasanya melihat credit profile, kemampuan repayment, dan pada kasus tertentu collateral. P2P lending bisa menawarkan proses yang lebih quick dan flexible, tetapi cost of capital tetap harus dihitung hati-hati. Dana yang lebih cepat cair belum tentu menjadi dana yang paling sehat kalau repayment akhirnya menekan cash flow operasional.',
+        'Lalu kapan venture capital masuk akal? Secara umum, VC lebih relevan untuk bisnis yang punya potensi high growth, market yang besar, dan model yang dapat scale cukup cepat sehingga investor melihat peluang high return. Selain capital, investor yang tepat dapat membuka network, talent, strategic introductions, dan pengalaman membangun perusahaan. Tetapi ada trade-off: dilution berarti ownership founder berkurang, governance menjadi lebih formal, dan growth expectations ikut meningkat. Fundraising bukan hadiah; it is a financing decision dengan konsekuensi jangka panjang.',
+        'Founder juga perlu memahami bahwa sumber modal bisa berubah mengikuti stage. Setelah angel atau early-stage VC, perusahaan yang lebih mature dapat bertemu corporate VC, growth investor, sovereign wealth fund, private equity, hingga public market atau IPO. Bukan berarti semua bisnis harus melewati tangga tersebut. Justru penting untuk memilih jalur yang cocok dengan business model. Bisnis profitable yang bisa berkembang secara organik tidak otomatis kurang sukses hanya karena tidak mengumumkan funding round di media.',
+        'Sebelum meeting investor, buat funding checklist sendiri. Berapa nominal yang benar-benar dibutuhkan? Apa penggunaan dananya—product, hiring, inventory, marketing, atau expansion? Milestone apa yang harus tercapai sebelum runway habis? Berapa ownership dan control yang rela ditukar? Di Jakarta, founder juga punya banyak kesempatan untuk belajar dari peer, mentor, investor, dan komunitas bisnis. Bergabung dengan komunitas Jakarta seperti Barter Up! bisa membantu memperluas perspektif sebelum mengambil keputusan besar, bukan sekadar mencari warm introduction untuk fundraising.',
+        'Jadi, do you really need VC? Jawabannya tidak perlu dimulai dari prestige atau FOMO. Mulailah dari kebutuhan bisnis dan economics-nya. Venture capital bisa menjadi accelerator yang powerful ketika model dan timing-nya tepat; bootstrapping bisa menjadi kekuatan ketika control dan profitability adalah prioritas; debt atau alternatif lain juga bisa lebih fit untuk kebutuhan tertentu. Funding terbaik bukan yang paling ramai diumumkan, tetapi yang memberi bisnis cukup resource untuk mencapai next milestone tanpa menciptakan beban yang tidak sesuai dengan stage dan tujuan founder.',
       ],
     },
     {
@@ -85,21 +105,31 @@ export default function Home() {
       filterCategory: 'Social Commerce',
       category: 'Social Commerce & TikTok',
       categoryTheme: 'bg-[#6695fc] text-white',
-      readTime: '5 min read',
+      readTime: '7 min read',
       title: 'Mau Jualan di TikTok? Kenali dulu “A-C-E”',
-      summary: 'TikTok Shop menggabungkan discovery dan commerce. Framework A-C-E—Assortment, Content, Empowerment—membantu seller mengoptimalkan produk, konten, affiliate, campaign, ads, dan customer experience.',
+      summary: 'TikTok Shop menggabungkan discovery dan commerce. Framework A-C-E—Assortment, Content, Empowerment—membantu seller mengoptimalkan produk, content marketing, affiliate, campaign, ads, dan customer experience.',
       author: 'Tim Barter Up!',
+      thumbnail: '/images/article-tiktok-ace.svg',
+      keywords: [
+        'TikTok Shop',
+        'social commerce',
+        'content marketing',
+        'komunitas',
+        'Jakarta',
+      ],
       keyTakeaways: [
         'A = Assortment: optimalkan product listing, hero SKU, pricing, promotion, keywords, dan product discovery.',
-        'C = Content: gunakan short video, livestream, self-brand content, KOL, dan creator affiliate untuk trigger demand.',
-        'E = Empowerment: perkuat customer experience, campaign, marketing, advertising, dan operational execution.',
+        'C = Content: kombinasikan short video, livestream, self-brand content, KOL, dan creator affiliate untuk trigger demand.',
+        'E = Empowerment: kuatkan customer experience, campaign, advertising, dan operational execution supaya growth lebih repeatable.',
       ],
       content: [
-        'Di TikTok Shop, customer journey nggak selalu linear dari search, compare, lalu buy. Content bisa membuat goods find people: seseorang nonton short video atau livestream, tertarik, lalu langsung masuk ke product detail dan checkout. Karena itu strategi jualan di TikTok perlu menggabungkan commerce dan content—not just upload produk lalu berharap order masuk.',
-        'Framework yang perlu kamu kenal adalah A-C-E: Assortment, Content, dan Empowerment. A atau Assortment menjawab: produk apa yang paling tepat dijual dan bagaimana orang menemukannya? Rapikan Product Detail Page dengan high-resolution images, deskripsi yang jelas, relevant keywords untuk SEO/search, buzzwords dan hashtag. Lalu tentukan hero SKU, traffic hook, top-selling product, TikTok-exclusive offer, atau high-profit bundle sesuai objective.',
-        'C atau Content adalah mesin discovery. Kombinasikan self-brand short videos dan livestream dengan Top KOL atau creator affiliate. Konten harus punya hook yang relevan, selling point yang jelas, dan format yang cocok dengan audience. Untuk LIVE, detail seperti host persona, product grouping, teaser video, lighting, promo, CTA, dan cara host menjawab pain point bisa ikut memengaruhi performance.',
-        'E atau Empowerment adalah layer yang membuat semuanya scalable: customer experience, marketing, sales campaign, dan advertising. Di sini seller perlu paham siapa audience-nya, campaign mana yang relevan, bagaimana ads spend dioptimalkan, serta partner dan operational setup apa yang dibutuhkan agar growth nggak berhenti di satu video viral.',
-        'Simple-nya: jangan hanya kejar views. Pastikan assortment-nya right, content-nya engaging, dan empowerment-nya kuat. Saat A-C-E bekerja bareng, TikTok Shop punya peluang lebih besar mengubah discovery menjadi traffic, conversion, GMV, dan repeatable growth.',
+        'TikTok Shop bukan cuma tempat orang scroll video lalu kebetulan melihat produk. Platform ini menggabungkan entertainment, discovery, dan commerce dalam satu journey yang sangat cepat. Di traditional e-commerce, customer sering mulai dari search lalu compare sebelum membeli. Di social commerce, content bisa membuat goods find people: seseorang sedang menonton short video atau livestream, menemukan produk yang terasa relevan, masuk ke product detail, lalu checkout. Karena itu strategi jualan di TikTok perlu menggabungkan commerce dan content marketing, bukan sekadar upload katalog dan menunggu order.',
+        'Framework yang bisa dipakai untuk melihat strategi ini adalah A-C-E: Assortment, Content, dan Empowerment. A atau Assortment menjawab dua hal: produk apa yang tepat untuk didorong dan bagaimana orang menemukannya. Rapikan Product Detail Page dengan visual yang jelas, deskripsi yang mudah dipahami, serta relevant keywords untuk membantu search dan discovery. Tentukan juga peran setiap SKU: mana hero product, traffic hook, top-selling product, TikTok-exclusive offer, atau high-profit bundle. Assortment yang rapi membuat traffic punya destination yang lebih siap convert.',
+        'C atau Content adalah mesin discovery. Seller bisa mengombinasikan self-brand short videos dan livestream dengan KOL maupun creator affiliate. Jangan hanya mengejar jumlah upload; setiap konten perlu punya hook, selling point, dan format yang cocok dengan audience. Untuk LIVE, detail seperti host persona, product grouping, teaser video, lighting, promo, CTA, dan kemampuan host menjawab pain point ikut membentuk experience. Content marketing yang kuat membuat produk terasa kontekstual: audience paham masalah apa yang diselesaikan dan kenapa mereka perlu peduli sekarang.',
+        'Creator dan affiliate juga memperluas distribusi. Daripada brand berbicara sendirian, creator membantu membawa produk ke komunitas audience yang sudah mereka bangun. Namun partnership sebaiknya tidak cuma berdasarkan follower count. Lihat relevansi audience, cara creator menyampaikan cerita, consistency, dan kemampuan membuat product demonstration yang believable. Eksperimen dengan beberapa angle, lalu lihat mana yang menghasilkan engagement dan conversion. Social commerce bergerak cepat, jadi learning loop antara content, creator, dan product perlu dibuat sesingkat mungkin.',
+        'E atau Empowerment adalah layer yang membuat semuanya lebih scalable. Ini mencakup customer experience, marketing, sales campaign, advertising, serta operational execution. Seller perlu memahami siapa audience-nya, campaign mana yang relevan, bagaimana ads spend dioptimalkan, dan partner apa yang dibutuhkan agar growth tidak berhenti setelah satu video viral. Stock, fulfillment, response time, dan after-sales experience juga tetap penting; content yang bagus bisa mendatangkan demand, tetapi operation yang buruk dapat membuat customer tidak kembali.',
+        'Untuk brand dan UMKM di Jakarta, ekosistem TikTok Shop juga membuka ruang belajar yang luas. Kamu bisa melihat pattern content dari berbagai kategori, ngobrol dengan seller lain, dan bertukar insight tentang livestream, affiliate, sampai campaign. Komunitas Jakarta seperti Barter Up! dapat menjadi tempat untuk membandingkan experiment secara praktis: apa yang bekerja, apa yang gagal, dan apa yang perlu dites berikutnya. Tujuannya bukan copy-paste strategi orang lain, tetapi mempercepat learning lewat pengalaman nyata dari berbagai industri.',
+        'Simple-nya: jangan hanya kejar views. Pastikan Assortment-nya right, Content-nya engaging, dan Empowerment-nya kuat. Mulai dari satu hero SKU, bangun beberapa content angle, uji short video dan LIVE, lalu gunakan data untuk memperbaiki langkah berikutnya. Ketika A-C-E bekerja bareng, TikTok Shop punya peluang lebih besar mengubah discovery menjadi traffic, conversion, GMV, dan repeatable growth. Viral moment memang menyenangkan, tetapi sistem yang bisa dipelajari dan diulang jauh lebih valuable untuk bisnis jangka panjang.',
       ],
     },
   ];
@@ -813,9 +843,12 @@ export default function Home() {
                   <article
                     key={article.id}
                     onClick={() => setSelectedArticle(article)}
-                    className="flex flex-col justify-between p-6 sm:p-7 rounded-3xl bg-[#f2f6ff] border border-[#6695fc]/25 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all group cursor-pointer"
+                    className="flex flex-col justify-between overflow-hidden rounded-3xl bg-[#f2f6ff] border border-[#6695fc]/25 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all group cursor-pointer"
                   >
-                    <div className="flex flex-col gap-4">
+                    <div className="relative w-full aspect-[16/9] overflow-hidden bg-white">
+                      <Image src={article.thumbnail} alt={'Ilustrasi ' + article.title} fill className="object-cover group-hover:scale-[1.02] transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+                    </div>
+                    <div className="flex flex-col gap-4 p-6 sm:p-7 pb-0 sm:pb-0">
                       <div className="flex items-center justify-between gap-2">
                         <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${article.categoryTheme}`}>
                           {article.category}
@@ -831,8 +864,13 @@ export default function Home() {
                       <p className="text-sm text-[#0c48a4]/75 leading-relaxed">
                         {article.summary}
                       </p>
+                      <div className="flex flex-wrap gap-2">
+                        {article.keywords.map((keyword) => (
+                          <span key={keyword} className="px-2.5 py-1 rounded-full bg-white/80 border border-[#6695fc]/15 text-[11px] font-medium text-[#0c48a4]/75">{keyword}</span>
+                        ))}
+                      </div>
                     </div>
-                    <div className="mt-6 pt-4 border-t border-[#6695fc]/15 flex items-center justify-between">
+                    <div className="mx-6 sm:mx-7 mb-6 sm:mb-7 mt-6 pt-4 border-t border-[#6695fc]/15 flex items-center justify-between">
                       <span className="text-xs font-semibold text-[#0c48a4]/80">{article.author}</span>
                       <span className="inline-flex items-center gap-1 text-xs font-bold text-[#6695fc] group-hover:text-[#0c48a4] transition-colors">
                         Baca Selengkapnya
