@@ -258,6 +258,45 @@ export default function Home() {
 
       <main className="w-full pt-28">
         <div className="flex flex-col w-full">
+          {/* UPCOMING EVENT */}
+          <section id="upcoming-event" className="px-4 md:px-8 py-12 bg-[#f2f6ff]">
+            <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden bg-white border border-[#6695fc]/30 shadow-lg">
+              <div className="grid lg:grid-cols-2">
+                <div className="p-6 md:p-12">
+                  <span className="inline-block rounded-full bg-[#f9fe8f] text-[#0c48a4] px-4 py-2 text-xs font-extrabold uppercase">Upcoming Event · Only 8 Seats</span>
+                  <h2 className="mt-5 text-3xl md:text-5xl font-black text-[#0c48a4] leading-tight">Founder&apos;s Club: <span className="text-[#6695fc]">My (Un)Successful Story</span></h2>
+                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Cerita sukses sudah sering kita dengar. But what about the failures nobody talks about? An intimate networking session for active founders and business owners to pitch their business, build meaningful connections, and learn from real, unvarnished experiences.</p>
+                  <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold text-[#0c48a4]">
+                    <span className="flex items-center gap-2 rounded-xl bg-[#f2f6ff] px-3 py-2"><Calendar className="w-4 h-4"/>Saturday, 24 October 2026</span>
+                    <span className="flex items-center gap-2 rounded-xl bg-[#f2f6ff] px-3 py-2"><Clock className="w-4 h-4"/>11:00–14:00 WIB</span>
+                    <span className="flex items-center gap-2 rounded-xl bg-[#f2f6ff] px-3 py-2"><MapPin className="w-4 h-4"/>Ryan Pibersano, Menteng</span>
+                  </div>
+                  <a href="https://forms.gle/g7Wf8YLKvm2xDoVm7" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 rounded-xl bg-[#0c48a4] text-white px-7 py-4 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a>
+                </div>
+                <div className="bg-[#0c48a4] text-white p-6 md:p-12">
+                  <h3 className="text-xl font-extrabold">What You&apos;ll Get</h3>
+                  <ul className="mt-4 space-y-2 text-sm md:text-base">
+                    <li>✓ Opportunity to introduce and pitch your business</li>
+                    <li>✓ Real-world lessons from peer founders</li>
+                    <li>✓ Exclusive Founder&apos;s Directory Booklet</li>
+                    <li>✓ Lunch included (food &amp; beverages)</li>
+                    <li>✓ Exciting Lucky Draw prize!</li>
+                  </ul>
+                  <h3 className="mt-8 pt-6 border-t border-white/20 text-xl font-extrabold">Ticket Price</h3>
+                  <p className="mt-3">Early Bird (until 16 Oct): <strong>IDR 150,000</strong></p>
+                  <p className="mt-2">Normal Price: <strong>IDR 175,000</strong></p>
+                  <h3 className="mt-8 pt-6 border-t border-white/20 text-xl font-extrabold">Participant Criteria</h3>
+                  <ul className="mt-3 space-y-2 text-sm">
+                    <li>• Founder / business owner (business running at least 6 months)</li>
+                    <li>• Active public brand website or Instagram</li>
+                    <li>• Willing to present a business profile and share one major failure or challenge</li>
+                  </ul>
+                  <p className="mt-6 rounded-xl bg-[#f9fe8f] text-[#0c48a4] p-4 font-black text-center">STRICTLY LIMITED TO 8 PARTICIPANTS!</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* HERO SECTION */}
           <section
             className="relative w-full overflow-hidden px-4 md:px-8 lg:px-12 py-12 lg:py-20 bg-gradient-to-b from-[#f2f6ff] to-[#ffffff]"
