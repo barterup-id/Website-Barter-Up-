@@ -313,7 +313,7 @@ export default function Home() {
                 {/* Neo-Playful Badge */}
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#f9fe8f] text-[#0c48a4] text-xs uppercase tracking-wider font-extrabold border border-[#0c48a4]/20 shadow-sm transform -rotate-1">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#ff25af] animate-ping"></span>
-                  <span>est. 2024 • 500+ MEMBERS from diverse sectors</span>
+                  <span>est. 2024 • 700+ MEMBERS from diverse sectors</span>
                 </div>
 
                 <h1 className="text-[30px] sm:text-4xl md:text-5xl lg:text-[54px] font-black text-[#0c48a4] tracking-tight leading-[1.15]">
@@ -385,7 +385,7 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-sm text-[#0c48a4]/80">
-                    <strong className="text-[#0c48a4] font-bold">500+ Founders &amp; Professionals</strong>&nbsp;members across Jabodetabek.
+                    <strong className="text-[#0c48a4] font-bold">700+ Founders &amp; Professionals</strong>&nbsp;members across Jabodetabek.
                   </p>
                 </div>
               </div>
@@ -432,7 +432,7 @@ export default function Home() {
           <section className="w-full bg-[#f2f6ff] py-12 px-4 md:px-8 lg:px-12 border-y border-[#6695fc]/20">
             <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 text-center">
               <div className="flex flex-col items-center gap-1 p-5 rounded-2xl bg-white shadow-sm border border-[#6695fc]/20 hover:-translate-y-0.5 transition-transform">
-                <span className="text-4xl md:text-5xl font-black text-[#6695fc]">500+</span>
+                <span className="text-4xl md:text-5xl font-black text-[#6695fc]">700+</span>
                 <span className="text-sm font-bold text-[#0c48a4] uppercase tracking-wider">Members</span>
                 <span className="text-xs text-[#0c48a4]/70">Diversed professionals and founders</span>
               </div>
@@ -1003,7 +1003,7 @@ export default function Home() {
                     Ready to &apos;Barter&apos; Your Expertise and Find Your Growth Group?
                   </h2>
                   <p className="text-base md:text-lg text-white/90 leading-relaxed font-normal">
-                    Dapatkan info networking tiap bulan, special member perks, dan connect ke 500+ profesional dan business owner yang siap saling bantu!
+                    Dapatkan info networking tiap bulan, special member perks, dan connect ke 700+ profesional dan business owner yang siap saling bantu!
                   </p>
                 </div>
                 <div className="flex flex-col items-stretch sm:items-end gap-3 w-full md:w-auto shrink-0">
