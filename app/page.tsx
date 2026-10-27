@@ -263,38 +263,49 @@ export default function Home() {
             <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden bg-white border border-[#6695fc]/20 shadow-[0_16px_40px_rgba(12,72,164,0.10)]">
               <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-4 lg:gap-0">
                 <div className="p-6 md:p-10 lg:p-12">
-                  <span className="inline-flex rounded-full bg-[#d1fae5] text-[#047857] px-4 py-2 text-xs font-extrabold uppercase tracking-wide">Upcoming Event · Only 8 Seats</span>
-                  <h2 className="mt-5 text-3xl md:text-4xl font-black text-[#0c48a4] leading-tight tracking-tight">Founder&apos;s Club: <span className="text-[#6695fc]">My (Un)Successful Story</span></h2>
-                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Cerita sukses sudah sering kita dengar. But what about the failures nobody talks about? An intimate networking session for active founders and business owners to pitch their business, build meaningful connections, and learn from real, unvarnished experiences.</p>
-                  <div className="mt-6 grid sm:grid-cols-3 gap-3 text-sm font-semibold text-[#0c48a4]">
-                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4"/>Saturday, 24 October 2026</span>
-                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Clock className="w-4 h-4"/>11:00–14:00 WIB</span>
-                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><MapPin className="w-4 h-4"/>Ryan Pibersano, Menteng</span>
+                  <span className="inline-flex rounded-full bg-[#d1fae5] text-[#047857] px-4 py-2 text-xs font-extrabold uppercase tracking-wide">New Networking · Registration Open</span>
+                  <h2 className="mt-5 text-3xl md:text-4xl font-black text-[#0c48a4] leading-tight tracking-tight">The Art of <span className="text-[#6695fc]">Convincing People</span></h2>
+                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Punya ide bagus tapi bingung meyakinkan boss atau tim? Ingin lebih jago negosiasi bisnis dan closing deal? Learn practical persuasion and negotiation techniques to pitch your ideas confidently, handle objections, and win commitments.</p>
+                  <div className="mt-5 rounded-2xl bg-[#f2f6ff] p-4 text-[#0c48a4]">
+                    <p className="text-xs font-bold uppercase tracking-wide text-[#6695fc]">Meet the Expert</p>
+                    <p className="mt-1 text-lg font-extrabold">Yohan Anggara</p>
+                    <p className="text-sm leading-relaxed">Sales &amp; Business Development Expert · 15+ years of experience at PaninBank, Manulife, Wings, Cimory, and more.</p>
                   </div>
-                  <div className="mt-7 hidden lg:flex flex-wrap items-center gap-3"><a href="https://forms.gle/g7Wf8YLKvm2xDoVm7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a><span className="inline-flex items-center justify-center rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-5 py-3 font-extrabold text-sm text-center">STRICTLY LIMITED TO 8 PARTICIPANTS!</span></div>
+                  <div className="mt-6 grid sm:grid-cols-3 gap-3 text-sm font-semibold text-[#0c48a4]">
+                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4 shrink-0"/>Saturday, 7 November 2026</span>
+                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Clock className="w-4 h-4 shrink-0"/>11:00–14:00 WIB</span>
+                    <a href="https://share.google/HBoh1D9RvMfBi3XrP" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20 hover:bg-[#dce5fb]"><MapPin className="w-4 h-4 shrink-0"/>K-Life Bumi Flagship</a>
+                  </div>
+                  <div className="mt-7 hidden lg:flex flex-wrap items-center gap-3">
+                    <a href="https://forms.gle/Y5UEqhur415aURFW7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a>
+                    <span className="inline-flex items-center justify-center rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-5 py-3 font-extrabold text-sm text-center">Early Bird until 30 October</span>
+                  </div>
                 </div>
                 <div className="bg-[#0c48a4] text-white p-6 md:p-10 lg:p-12">
-                  <h3 className="text-xl font-extrabold">What You&apos;ll Get</h3>
+                  <h3 className="text-xl font-extrabold">What You&apos;ll Learn</h3>
                   <ul className="mt-3 space-y-1 text-sm md:text-base leading-snug">
-                    <li>✓ Opportunity to introduce and pitch your business</li>
-                    <li>✓ Real-world lessons from peer founders</li>
-                    <li>✓ Exclusive Founder&apos;s Directory Booklet</li>
-                    <li>✓ Lunch included (food &amp; beverages)</li>
-                    <li>✓ Exciting Lucky Draw prize!</li>
+                    <li>✓ The Persuasion Mindset</li>
+                    <li>✓ Membaca Lawan Bicara &amp; Menguasai Ruangan</li>
+                    <li>✓ Framing Your Idea</li>
+                    <li>✓ How to Handle Objection / Rejection</li>
+                    <li>✓ Mengunci Komitmen atau Closing Deal</li>
+                    <li>✓ Real Study Cases</li>
                   </ul>
-                  <h3 className="mt-5 pt-4 border-t border-[#0c48a4]/15 text-xl font-extrabold">Ticket Price</h3>
-                  <p className="mt-3">Early Bird (until 16 Oct): <strong>IDR 150,000</strong></p>
-                  <p className="mt-2">Normal Price: <strong>IDR 175,000</strong></p>
-                  <h3 className="mt-5 pt-4 border-t border-[#0c48a4]/15 text-xl font-extrabold">Participant Criteria</h3>
-                  <ul className="mt-3 space-y-2 text-sm">
-                    <li>• Founder / business owner (business running at least 6 months)</li>
-                    <li>• Active public brand website or Instagram</li>
-                    <li>• Willing to present a business profile and share one major failure or challenge</li>
+                  <h3 className="mt-5 pt-4 border-t border-white/20 text-xl font-extrabold">Ticket Price</h3>
+                  <p className="mt-3">Early Bird (until 30 Oct): <strong>IDR 80,000</strong></p>
+                  <p className="mt-2">Normal Price: <strong>IDR 100,000</strong></p>
+                  <h3 className="mt-5 pt-4 border-t border-white/20 text-xl font-extrabold">Perfect For</h3>
+                  <ul className="mt-3 space-y-2 text-sm leading-relaxed">
+                    <li>• Professionals pitching ideas to their boss or team</li>
+                    <li>• Business owners &amp; founders seeking investor funding</li>
+                    <li>• Marketers, salespeople &amp; freelancers closing client deals</li>
                   </ul>
-                  
                 </div>
               </div>
-              <div className="lg:hidden flex flex-col sm:flex-row gap-3 p-6 pt-2"><a href="https://forms.gle/g7Wf8YLKvm2xDoVm7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a><span className="inline-flex items-center justify-center rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-5 py-3 font-extrabold text-sm text-center">STRICTLY LIMITED TO 8 PARTICIPANTS!</span></div>
+              <div className="lg:hidden flex flex-col sm:flex-row gap-3 p-6 pt-2">
+                <a href="https://forms.gle/Y5UEqhur415aURFW7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a>
+                <span className="inline-flex items-center justify-center rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-5 py-3 font-extrabold text-sm text-center">Early Bird until 30 October</span>
+              </div>
             </div>
           </section>
 
