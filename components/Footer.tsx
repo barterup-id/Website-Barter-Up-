@@ -65,11 +65,11 @@ export default function Footer() {
 
             <div className="space-y-2.5">
               <a
-                href="mailto:barterup.id@gmail.com"
+                href="mailto:hello@barterup.id"
                 className="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl border border-slate-200 text-xs sm:text-sm font-semibold text-slate-800 hover:bg-slate-50 hover:border-blue-300 transition-all shadow-2xs"
               >
                 <Mail className="w-4 h-4 text-blue-600 shrink-0" />
-                <span className="truncate">barterup.id@gmail.com</span>
+                <span className="truncate">hello@barterup.id</span>
               </a>
 
               <a
