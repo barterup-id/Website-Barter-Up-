@@ -276,7 +276,7 @@ export default function Home() {
                     <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><MapPin className="w-4 h-4 shrink-0"/>Tebet, Jakarta</span>
                   </div>
                   <div className="mt-7 hidden lg:flex flex-wrap items-center gap-3">
-                    <a href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Get Registration Updates <ArrowRight className="w-5 h-5"/></a>
+                    <a href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">I Want to Get Registration Update <ArrowRight className="w-5 h-5"/></a>
                   </div>
                 </div>
                 <div className="bg-[#0c48a4] text-white p-6 md:p-10 lg:p-12">
@@ -293,7 +293,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="lg:hidden flex p-6 pt-2">
-                <a href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Get Registration Updates <ArrowRight className="w-5 h-5"/></a>
+                <a href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">I Want to Get Registration Update <ArrowRight className="w-5 h-5"/></a>
               </div>
             </div>
           </section>
