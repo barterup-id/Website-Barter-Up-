@@ -360,7 +360,7 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:items-center sm:gap-4 pt-1 w-full sm:w-auto">
                   <a
                     className="inline-flex min-h-[92px] items-center justify-center gap-2 px-3 py-3 rounded-2xl bg-[#6695fc] text-white font-bold text-xs text-center leading-tight tracking-wide shadow-xl shadow-[#6695fc]/35 hover:bg-[#0c48a4] hover:-translate-y-0.5 active:translate-y-0 transition-all border border-[#6695fc] sm:min-h-0 sm:gap-3 sm:px-7 sm:py-4 sm:text-sm sm:text-left"
-                    href="https://chat.whatsapp.com/LxzJMUjgtnx8BFfTpCHvDm"
+                    href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -1020,7 +1020,7 @@ export default function Home() {
                 <div className="flex flex-col items-stretch sm:items-end gap-3 w-full md:w-auto shrink-0">
                   <a
                     className="px-8 py-5 rounded-2xl bg-white text-[#0c48a4] font-extrabold text-sm uppercase tracking-wider text-center shadow-xl hover:bg-[#f9fe8f] hover:scale-105 transition-all border border-white"
-                    href="https://chat.whatsapp.com/LxzJMUjgtnx8BFfTpCHvDm"
+                    href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
