@@ -263,48 +263,37 @@ export default function Home() {
             <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden bg-white border border-[#6695fc]/20 shadow-[0_16px_40px_rgba(12,72,164,0.10)]">
               <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-4 lg:gap-0">
                 <div className="p-6 md:p-10 lg:p-12">
-                  <span className="inline-flex rounded-full bg-[#d1fae5] text-[#047857] px-4 py-2 text-xs font-extrabold uppercase tracking-wide">New Networking · Registration Open</span>
-                  <h2 className="mt-5 text-3xl md:text-4xl font-black text-[#0c48a4] leading-tight tracking-tight">The Art of <span className="text-[#6695fc]">Convincing People</span></h2>
-                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Punya ide bagus tapi bingung meyakinkan boss atau tim? Ingin lebih jago negosiasi bisnis dan closing deal? Learn practical persuasion and negotiation techniques to pitch your ideas confidently, handle objections, and win commitments.</p>
+                  <span className="inline-flex rounded-full bg-[#d1fae5] text-[#047857] px-4 py-2 text-xs font-extrabold uppercase tracking-wide">Upcoming Workshop · Stay Tuned</span>
+                  <h2 className="mt-5 text-3xl md:text-4xl font-black text-[#0c48a4] leading-tight tracking-tight">Create a High Quality <span className="text-[#6695fc]">Video Content with Claude</span></h2>
+                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Learn how to generate high-quality videos for your social media with the help of Claude. Turn your ideas into engaging video content and explore a smarter creative workflow in this hands-on session.</p>
                   <div className="mt-5 rounded-2xl bg-[#f2f6ff] p-4 text-[#0c48a4]">
-                    <p className="text-xs font-bold uppercase tracking-wide text-[#6695fc]">Meet the Expert</p>
-                    <p className="mt-1 text-lg font-extrabold">Yohan Anggara</p>
-                    <p className="text-sm leading-relaxed">Sales &amp; Business Development Expert · 15+ years of experience at PaninBank, Manulife, Wings, Cimory, and more.</p>
+                    <p className="text-xs font-bold uppercase tracking-wide text-[#6695fc]">About the Workshop</p>
+                    <p className="mt-1 text-lg font-extrabold">Intimate &amp; Intensive</p>
+                    <p className="text-sm leading-relaxed">A focused, 3-hour workshop designed to help you create high-quality video content for your social media with Claude.</p>
                   </div>
-                  <div className="mt-6 grid sm:grid-cols-3 gap-3 text-sm font-semibold text-[#0c48a4]">
-                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4 shrink-0"/>Saturday, 7 November 2026</span>
-                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Clock className="w-4 h-4 shrink-0"/>11:00–14:00 WIB</span>
-                    <a href="https://share.google/HBoh1D9RvMfBi3XrP" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20 hover:bg-[#dce5fb]"><MapPin className="w-4 h-4 shrink-0"/>K-Life Bumi Flagship</a>
+                  <div className="mt-6 grid sm:grid-cols-2 gap-3 text-sm font-semibold text-[#0c48a4]">
+                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4 shrink-0"/>Saturday, 28 November 2026</span>
+                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><MapPin className="w-4 h-4 shrink-0"/>Tebet, Jakarta</span>
                   </div>
                   <div className="mt-7 hidden lg:flex flex-wrap items-center gap-3">
-                    <a href="https://forms.gle/Y5UEqhur415aURFW7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a>
-                    <span className="inline-flex items-center justify-center rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-5 py-3 font-extrabold text-sm text-center">Early Bird until 30 October</span>
+                    <a href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Get Registration Updates <ArrowRight className="w-5 h-5"/></a>
                   </div>
                 </div>
                 <div className="bg-[#0c48a4] text-white p-6 md:p-10 lg:p-12">
-                  <h3 className="text-xl font-extrabold">What You&apos;ll Learn</h3>
-                  <ul className="mt-3 space-y-1 text-sm md:text-base leading-snug">
-                    <li>✓ The Persuasion Mindset</li>
-                    <li>✓ Membaca Lawan Bicara &amp; Menguasai Ruangan</li>
-                    <li>✓ Framing Your Idea</li>
-                    <li>✓ How to Handle Objection / Rejection</li>
-                    <li>✓ Mengunci Komitmen atau Closing Deal</li>
-                    <li>✓ Real Study Cases</li>
+                  <h3 className="text-xl font-extrabold">What to Expect</h3>
+                  <ul className="mt-3 space-y-2 text-sm md:text-base leading-snug">
+                    <li>✓ Learn how to generate high-quality videos with Claude</li>
+                    <li>✓ Create engaging video content for your social media</li>
+                    <li>✓ Explore a practical AI-assisted creative workflow</li>
+                    <li>✓ Join an intimate and intensive 3-hour workshop</li>
                   </ul>
-                  <h3 className="mt-5 pt-4 border-t border-white/20 text-xl font-extrabold">Ticket Price</h3>
-                  <p className="mt-3">Early Bird (until 30 Oct): <strong>IDR 80,000</strong></p>
-                  <p className="mt-2">Normal Price: <strong>IDR 100,000</strong></p>
-                  <h3 className="mt-5 pt-4 border-t border-white/20 text-xl font-extrabold">Perfect For</h3>
-                  <ul className="mt-3 space-y-2 text-sm leading-relaxed">
-                    <li>• Professionals pitching ideas to their boss or team</li>
-                    <li>• Business owners &amp; founders seeking investor funding</li>
-                    <li>• Marketers, salespeople &amp; freelancers closing client deals</li>
-                  </ul>
+                  <h3 className="mt-6 pt-5 border-t border-white/20 text-xl font-extrabold">Limited Seats</h3>
+                  <p className="mt-3 text-sm md:text-base leading-relaxed">Seats are limited to keep the workshop intimate and focused. Registration details will be announced first in the Barter Up! WhatsApp Community.</p>
+                  <div className="mt-5 rounded-xl bg-white text-[#0c48a4] p-4 font-extrabold text-center">Stay tuned in our WhatsApp Community for registration opening!</div>
                 </div>
               </div>
-              <div className="lg:hidden flex flex-col sm:flex-row gap-3 p-6 pt-2">
-                <a href="https://forms.gle/Y5UEqhur415aURFW7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Secure Your Spot <ArrowRight className="w-5 h-5"/></a>
-                <span className="inline-flex items-center justify-center rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-5 py-3 font-extrabold text-sm text-center">Early Bird until 30 October</span>
+              <div className="lg:hidden flex p-6 pt-2">
+                <a href="https://chat.whatsapp.com/HPLfRlYtcKFKNk6p8Qw5V0" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">Get Registration Updates <ArrowRight className="w-5 h-5"/></a>
               </div>
             </div>
           </section>
