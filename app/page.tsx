@@ -261,39 +261,63 @@ export default function Home() {
           {/* UPCOMING EVENT */}
           <section id="upcoming-event" className="px-4 md:px-8 py-10 md:py-16 bg-[#f2f6ff]">
             <div className="max-w-7xl mx-auto rounded-[2rem] overflow-hidden bg-white border border-[#6695fc]/20 shadow-[0_16px_40px_rgba(12,72,164,0.10)]">
-              <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-4 lg:gap-0">
+              <div className="bg-[#0c48a4] text-white px-6 py-4 md:px-10 flex flex-wrap items-center justify-between gap-2">
+                <span className="inline-flex rounded-full bg-[#f9fe8f] text-[#0c48a4] px-4 py-2 text-xs font-extrabold uppercase tracking-wide">New Event · Registration Open</span>
+                <span className="text-sm font-semibold">Barter Up! × AI Club</span>
+              </div>
+              <div className="grid lg:grid-cols-[1.1fr_0.9fr]">
                 <div className="p-6 md:p-10 lg:p-12">
-                  <span className="inline-flex rounded-full bg-[#d1fae5] text-[#047857] px-4 py-2 text-xs font-extrabold uppercase tracking-wide">Upcoming Workshop · Stay Tuned</span>
-                  <h2 className="mt-5 text-3xl md:text-4xl font-black text-[#0c48a4] leading-tight tracking-tight">Create a High Quality <span className="text-[#6695fc]">Video Content with Claude</span></h2>
-                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Learn how to generate high-quality videos for your social media with the help of Claude. Turn your ideas into engaging video content and explore a smarter creative workflow in this hands-on session.</p>
-                  <div className="mt-5 rounded-2xl bg-[#f2f6ff] p-4 text-[#0c48a4]">
-                    <p className="text-xs font-bold uppercase tracking-wide text-[#6695fc]">About the Workshop</p>
-                    <p className="mt-1 text-lg font-extrabold">Intimate &amp; Intensive</p>
-                    <p className="text-sm leading-relaxed">A focused, 3-hour workshop designed to help you create high-quality video content for your social media with Claude.</p>
+                  <h2 className="text-3xl md:text-4xl font-black text-[#0c48a4] leading-tight tracking-tight">Workshop: <span className="text-[#6695fc]">Create High Quality Video with Claude</span></h2>
+                  <p className="mt-5 text-[#0c48a4]/80 leading-relaxed">Your highly requested AI workshop is here! You’ve seen those viral videos created with Claude — now it’s time to learn how to make them yourself. Join this hands-on special collaboration and discover how to combine up-to-date social media strategies with the latest AI best practices to conceptualize, script, and produce high-quality video content efficiently.</p>
+
+                  <div className="mt-6">
+                    <p className="text-xs font-extrabold uppercase tracking-wide text-[#6695fc]">Meet Your Speakers</p>
+                    <div className="mt-3 grid sm:grid-cols-2 gap-3">
+                      <div className="rounded-2xl bg-[#f2f6ff] p-4 text-[#0c48a4]">
+                        <p className="font-extrabold text-lg">Andre Tansil</p>
+                        <p className="mt-1 text-sm font-semibold">AI Automation Expert</p>
+                        <p className="mt-2 text-xs leading-relaxed text-[#0c48a4]/75">8+ years experience · Qove, SeoulTech, Ner Studio</p>
+                      </div>
+                      <div className="rounded-2xl bg-[#f2f6ff] p-4 text-[#0c48a4]">
+                        <p className="font-extrabold text-lg">Violita Febriana</p>
+                        <p className="mt-1 text-sm font-semibold">Social Media Strategist</p>
+                        <p className="mt-2 text-xs leading-relaxed text-[#0c48a4]/75">8+ years experience · Traveloka, Prime Video, dibimbing</p>
+                      </div>
+                    </div>
                   </div>
+
                   <div className="mt-6 grid sm:grid-cols-2 gap-3 text-sm font-semibold text-[#0c48a4]">
                     <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4 shrink-0"/>Saturday, 28 November 2026</span>
-                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><MapPin className="w-4 h-4 shrink-0"/>Tebet, Jakarta</span>
-                  </div>
-                  <div className="mt-7 hidden lg:flex flex-wrap items-center gap-3">
-                    <a href="https://forms.gle/MDuvvGoTrnQpBMR19" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">I Want to Get Registration Update <ArrowRight className="w-5 h-5"/></a>
+                    <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Clock className="w-4 h-4 shrink-0"/>13:00 – 16:00 WIB</span>
+                    <a href="https://share.google/zufa92SWHg7W30wpW" target="_blank" rel="noopener noreferrer" className="sm:col-span-2 flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 text-[#0c48a4] hover:bg-[#dce7ff] transition-colors"><MapPin className="w-4 h-4 shrink-0"/>KANTEEN &amp; CO, Tebet <span className="text-xs underline underline-offset-2">View location</span></a>
                   </div>
                 </div>
-                <div className="bg-[#0c48a4] text-white p-6 md:p-10 lg:p-12">
-                  <h3 className="text-xl font-extrabold">What to Expect</h3>
-                  <ul className="mt-3 space-y-2 text-sm md:text-base leading-snug">
-                    <li>✓ Learn how to generate high-quality videos with Claude</li>
-                    <li>✓ Create engaging video content for your social media</li>
-                    <li>✓ Explore a practical AI-assisted creative workflow</li>
-                    <li>✓ Join an intimate and intensive 3-hour workshop</li>
+
+                <div className="bg-[#0c48a4] text-white p-6 md:p-10 lg:p-12 flex flex-col">
+                  <h3 className="text-xl font-extrabold">What You’ll Learn</h3>
+                  <ul className="mt-4 space-y-3 text-sm md:text-base leading-snug">
+                    <li>✓ Social Media Algorithm Update</li>
+                    <li>✓ What Makes a Good Video Content?</li>
+                    <li>✓ AI Best Practice in 2026</li>
+                    <li>✓ Create high-quality video content with Claude</li>
                   </ul>
-                  <h3 className="mt-6 pt-5 border-t border-white/20 text-xl font-extrabold">Limited Seats</h3>
-                  <p className="mt-3 text-sm md:text-base leading-relaxed">Seats are limited to keep the workshop intimate and focused. Registration details will be announced first in the Barter Up! WhatsApp Community.</p>
-                  <div className="mt-5 rounded-xl bg-white text-[#0c48a4] p-4 font-extrabold text-center">Stay tuned in our WhatsApp Community for registration opening!</div>
+
+                  <h3 className="mt-7 pt-6 border-t border-white/20 text-xl font-extrabold">Workshop Investment</h3>
+                  <div className="mt-3 grid grid-cols-2 gap-3">
+                    <div className="rounded-2xl bg-[#f9fe8f] p-4 text-[#0c48a4]">
+                      <p className="text-xs font-extrabold uppercase tracking-wide">Early Bird</p>
+                      <p className="mt-1 text-2xl font-black">IDR 250K</p>
+                      <p className="mt-1 text-xs font-semibold">Until 20 November</p>
+                    </div>
+                    <div className="rounded-2xl bg-white/10 border border-white/20 p-4">
+                      <p className="text-xs font-extrabold uppercase tracking-wide">Normal Price</p>
+                      <p className="mt-1 text-2xl font-black">IDR 275K</p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm leading-relaxed text-white/85">Includes snack &amp; drink, guidance from facilitators, and learning materials.</p>
+                  <a href="https://forms.gle/xofWpMQeCXeKkKcK6" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-6 py-4 font-extrabold hover:bg-[#eff476] transition-colors">Save Your Seat Now <ArrowRight className="w-5 h-5"/></a>
+                  <p className="mt-3 text-center text-xs text-white/75">Limited seats · Register through the form</p>
                 </div>
-              </div>
-              <div className="lg:hidden flex p-6 pt-2">
-                <a href="https://forms.gle/MDuvvGoTrnQpBMR19" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#0c48a4] text-white px-6 py-3 font-bold hover:bg-[#083779]">I Want to Get Registration Update <ArrowRight className="w-5 h-5"/></a>
               </div>
             </div>
           </section>
