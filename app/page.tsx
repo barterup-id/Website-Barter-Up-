@@ -290,6 +290,7 @@ export default function Home() {
                     <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4 shrink-0"/>Saturday, 28 November 2026</span>
                     <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Clock className="w-4 h-4 shrink-0"/>13:00 – 16:00 WIB</span>
                     <a href="https://share.google/zufa92SWHg7W30wpW" target="_blank" rel="noopener noreferrer" className="sm:col-span-2 flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 text-[#0c48a4] hover:bg-[#dce7ff] transition-colors"><MapPin className="w-4 h-4 shrink-0"/>KANTEEN &amp; CO, Tebet <span className="text-xs underline underline-offset-2">View location</span></a>
+                    <span className="sm:col-span-2 flex items-center gap-2 rounded-2xl bg-[#f9fe8f] px-3 py-4 min-h-20 font-extrabold"><Sparkles className="w-4 h-4 shrink-0"/>7 SEATS LEFT!</span>
                   </div>
                 </div>
 
