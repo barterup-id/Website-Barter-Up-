@@ -290,7 +290,6 @@ export default function Home() {
                     <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Calendar className="w-4 h-4 shrink-0"/>Saturday, 28 November 2026</span>
                     <span className="flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 min-h-20"><Clock className="w-4 h-4 shrink-0"/>13:00 – 16:00 WIB</span>
                     <a href="https://share.google/zufa92SWHg7W30wpW" target="_blank" rel="noopener noreferrer" className="sm:col-span-2 flex items-center gap-2 rounded-2xl bg-[#e9edf9] px-3 py-4 text-[#0c48a4] hover:bg-[#dce7ff] transition-colors"><MapPin className="w-4 h-4 shrink-0"/>KANTEEN &amp; CO, Tebet <span className="text-xs underline underline-offset-2">View location</span></a>
-                    <span className="sm:col-span-2 flex items-center gap-2 rounded-2xl bg-[#f9fe8f] px-3 py-4 min-h-20 font-extrabold"><Sparkles className="w-4 h-4 shrink-0"/>7 SEATS LEFT!</span>
                   </div>
                 </div>
 
@@ -317,7 +316,7 @@ export default function Home() {
                   </div>
                   <p className="mt-4 text-sm leading-relaxed text-white/85">Includes snack &amp; drink, guidance from facilitators, and learning materials.</p>
                   <a href="https://forms.gle/xofWpMQeCXeKkKcK6" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#f9fe8f] text-[#0c48a4] px-6 py-4 font-extrabold hover:bg-[#eff476] transition-colors">Save Your Seat Now <ArrowRight className="w-5 h-5"/></a>
-                  <p className="mt-3 text-center text-xs text-white/75">Limited seats · Register through the form</p>
+                  <p className="mt-3 text-center text-sm font-extrabold text-[#f9fe8f]">7 SEATS LEFT!</p>
                 </div>
               </div>
             </div>
